@@ -44,7 +44,7 @@ def add_contact(contacts):
     contacts.append({"Name": name, "Email": email, "Phone": phone, "Address": address})
     print("Contact added successfully!")
 
-    # Automatically save after adding the contact
+    # Automatically saving contacts after adding a contact
     load_save.save_contacts(contacts)
 
     return contacts
